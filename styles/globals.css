@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .button {
+    @apply px-4 py-2 border rounded-full cursor-pointer hover:shadow-lg active:scale-95 active:bg-gray-100 transform duration-100 ease-out;
+  }
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap");
 
 html {
