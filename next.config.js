@@ -1,7 +1,7 @@
 const webpack = require("webpack");
 
 const { parsed: myEnv } = require("dotenv").config({
-  path: "/home/sujal/Documents/airbnb-2.0/.env",
+  path: "/home/sujal/Documents/airbnb-2.0/.env.local",
 });
 
 module.exports = {
