@@ -26,7 +26,7 @@ function MapSection({ searchResults }) {
   return (
     <Map
       mapStyle="mapbox://styles/sranjan0208/cldly3i3i000b01lifdmbcbam"
-      mapboxAccessToken={process.env.mapbox_key}
+      mapboxAccessToken={process.env.MAPBOX_KEY}
       {...viewport}
       style={{ width: "100%", height: "100%" }}
       onMove={(evt) => setViewPort(evt.viewport)}
